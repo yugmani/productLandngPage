@@ -19,25 +19,74 @@
     <div id="section-about">
         <p>Show Your Personality with our Designs</p>
         <iframe id="video" width="90%" height="450" src="https://www.youtube.com/embed/Vjl3EKTcx0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <div id="introduction-info">
-
+        
+    </div>
+    <div id="section-product">
+        <div class="card-row">
+            <div id="card1" class="card">
+                <div class="card-title">Bags & Wallets</div>
+                <img class="card-image" src="assets/bags.jpg">
+                <div class="card-info">Body Glove High Tide Tote Large</div>
+                <div class="card-price">Your price: <b>$150.51</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
+            <div id="card2" class="card">
+                <div class="card-title">Jackets</div>
+                <img class="card-image" src="assets/jackets.jpg">
+                <div class="card-info">Men's Waterproof Winter Jacket</div>
+                <div class="card-price">Your price: <b>$299.65</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
+            <div id="card3" class="card">
+                <div class="card-title">Sweaters</div>
+                <img class="card-image" src="assets/sweaters.jpg">
+                <div class="card-info">Leo & Nicole Cinch Waist Cardigan</div>
+                <div class="card-price">Your price: <b>$310.25</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
+        </div>
+        <div class="card-row">
+            <div id="card4" class="card">
+                <div class="card-title">Shoes</div>
+                <img class="card-image" src="assets/shoes.jpg">
+                <div class="card-info">adidas Kids' Court Shoe</div>
+                <div class="card-price">Your price: <b>$89.51</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
+            <div id="card5" class="card">
+                <div class="card-title">Pants</div>
+                <img class="card-image" src="assets/pants.jpg">
+                <div class="card-info">JB Britches Men's Flat Front Pant</div>
+                <div class="card-price">Your price: <b>$69.49</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
+            <div id="card6" class="card">
+                <div class="card-title">T-Shirts</div>
+                <img class="card-image" src="assets/T-shirts.jpg">
+                <div class="card-info">Glacier Performance Men’s 2-pack Tee</div>
+                <div class="card-price">Your price: <b>$25.49</b></div>
+                <button class="more-info" >More info ...</button>
+            </div>
         </div>
     </div>
+
     <div id="section-contact">
-        <h1 style="text-align: center;">Contact Us</h1>
-        <form id="contact">
+        <h1 style="text-align: center;color:white">CONTACT US</h1>
+        <form id="contact" method="GET" action="mailto:https://www.freecodecamp.com/email-submit" enctype="text/plain">
             <label for="name">Enter your name:</label><br>
-            <input type="text" name="name" id="name" placeholder="eg. Barack Obama"><br>
+            <input type="text" name="name" id="name" placeholder="eg. Barack Obama" required><br>
             <label for="email">Enter your email:</label><br>
-            <input type="email" name="email" id="email" placeholder="eg. example@something.com"><br>
+            <input type="email" name="email" id="email" placeholder="eg. example@something.com" required><br>
             <label for="phone">Enter your phone number:</label><br>
-            <input type="number" name="phone" id="phone" placeholder="eg. 321654987"><br>
+            <input type="tel" name="phone" id="phone" placeholder="eg. 321654987"><br>
+            <label for="message">Type your message:</label>
+            <textarea id="message" rows="3" cols="68" placeholder="Enter message here"></textarea>
             <input type="submit" id="submit">
         </form>
     </div>
-<footer>
-
-</footer>
+<div id="footer">
+Created & Designed by Yug Gurung
+</div>
     
 </body>
 </html>
