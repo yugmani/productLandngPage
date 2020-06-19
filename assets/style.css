@@ -1,0 +1,98 @@
+html, body {
+    margin:0;
+    padding:0;
+}
+
+#header {
+    margin:0 auto;
+    width:100%;
+    height:60px;
+    background-color:#696969;
+    display:flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+
+#header-img {
+    width:70px;
+    height:auto;
+    padding:5px;
+}
+
+#nav-bar {
+    width:450px;
+    height:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    width:130px;
+    text-decoration:none;
+    font-size:20px;
+    /* margin:0px 10px; */
+    text-align:center;
+    padding:10px 5px;
+    color:#FFF;
+    /* background-color:#8B008B; */
+}
+
+.nav-link:hover {
+    color:#FFF;
+    background-color:#8B008B;
+    transition:2s;
+}
+
+#section-about {
+    margin:0 auto;
+    width:100%;
+    height:auto;
+    padding-bottom:20px ;
+    text-align:center;
+    background-color:#8B0000;
+}
+
+#section-about>p {
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-weight:800;
+    font-size:50px;
+    color:#FFF;
+    margin:0;
+    padding:8px;
+}
+
+#video {
+    margin:10px;
+}
+
+#section-contact {
+    background-color:#DB7093;
+    padding:20px;
+}
+
+#contact {
+    margin:0 auto;
+    width:40%;
+    height:auto;
+    font-size:20px;
+    background-color:#708090;
+    padding:10px 20px;
+    /* text-align:center; */
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="number"] {
+    width:90%;
+    padding:10px;
+    margin:10px 0px;
+}
+
+input[type="submit"] {
+    width:150px;
+    padding:10px;
+    margin:20px 0px;
+    background-color:#4682B4;
+    border-radius:15px;
+    border:none;
+}
