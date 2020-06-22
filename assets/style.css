@@ -14,7 +14,7 @@ html, body {
 }
 
 #header-img {
-    width:80px;
+    max-width:80px;
     height:auto;
     /* padding:5px; */
     /* background-color:white; */
@@ -144,7 +144,7 @@ html, body {
     padding:20px;
 }
 
-#contact {
+#form {
     margin:0 auto;
     width:40%;
     height:auto;
@@ -190,4 +190,81 @@ input[type="submit"] {
     border-top:10px solid #808080;
     text-align:center;
     padding-top:35px;
+}
+
+
+@media only screen and (max-width:667px) {
+    #header {
+        display:block;
+        justify-content: center;
+        text-align:center;
+        height:auto;  
+    }
+
+    #header-img {
+        max-width:50%;
+        height:auto;
+        text-align:center;
+    }
+
+    #nav-bar {
+        width:90%;
+        margin:0 auto;
+        flex-direction:column;
+        justify-content: center;
+        text-align:center;
+        padding-bottom:15px;
+    }
+
+    .nav-link {
+        width:90%;
+        font-size:25px;
+        margin:0 auto;
+        /* padding-top:10px; */
+        padding-bottom:10px;
+        border-radius:0px;
+        border-bottom:1px solid silver;
+    }
+
+    /* #section-product {
+        margin:0 auto;
+        display:block;
+        justify-content: center;
+        text-align:center;
+        height:auto;  
+        align-items:center;
+    } */
+
+    .card-row {
+        margin:0 auto;
+        width:100%;
+        /* display:block; */
+        flex-direction:column;
+        justify-content: center;
+        text-align:center;
+        height:auto; 
+        align-items:center;
+        padding:0; 
+        margin:0;
+    }
+
+    .card {
+        width:70%;
+        height:auto;
+        justify-content: center;
+        text-align:center;
+        text-align:center;
+        /* margin:10px; */
+        padding:10px;
+    }
+
+    #form {
+        width:80%;
+    }
+
+    #message {
+        width:95%
+    }
+
+
 }
